@@ -1,7 +1,7 @@
 # Date: 06/03/2022
 # Parsing XML using python!
 
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 stream = open('sample.xml', 'r')
 
